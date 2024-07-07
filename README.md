@@ -17,6 +17,7 @@
 
 ```
 npm i -g  npm-cut-source
+or
 yarn add -g  npm-cut-source
 ```
 
@@ -31,22 +32,18 @@ yarn add -g  npm-cut-source
   -  cut-npm current  
   - 简写：cut-npm c  
 
-  ```
-  输出结果: npm官方镜像源
-  ```
-
+  - 输出结果：npm官方镜像源
+  
 - 查看所有源列表
 
   - cut-npm list 
   - 简写： cut-npm ls  
+  - 默认镜像源: 
+    - npm官方镜像源: https://registry.npmjs.org/ 
+    - taobao镜像源: https://registry.npmmirror.com/
 
-  ```
-  默认镜像源: 
-     npm官方镜像源: https://registry.npmjs.org/ 
-     taobao镜像源: https://registry.npmmirror.com/
-     yarn镜像源:  https://registry.yarnpkg.com/
-     cnpm镜像源:  https://r.cnpmjs.org/
-  ```
+    - yarn镜像源:  https://registry.yarnpkg.com/
+    - cnpm镜像源:  https://r.cnpmjs.org/
 
 - 新增镜像源
 
@@ -67,9 +64,11 @@ yarn add -g  npm-cut-source
 
   - cut-npm use
 
-  ```
-  选择镜像源:  npm官方镜像源 taobao镜像源   yarn镜像源   cnpm镜像源
-  ```
+  - 选择镜像源:  
+    - npm官方镜像源 
+    - taobao镜像源   
+    - yarn镜像源   
+    - cnpm镜像源
 
 
 
