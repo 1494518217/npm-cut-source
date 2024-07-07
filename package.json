@@ -1,6 +1,6 @@
 {
   "name": "npm-cut-source",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "npm切换源,npm,快速切换,yarn,taobao",
   "main": "index.js",
   "bin": {
